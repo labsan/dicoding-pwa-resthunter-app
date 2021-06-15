@@ -5,6 +5,7 @@ import 'regenerator-runtime'
 import '../styles/root.css'
 import '../styles/elements/header.css'
 import '../styles/elements/main.css'
+import '../styles/elements/footer.css'
 
 /* import responsives CSS */ 
 import '../styles/responsives/small-devices.css'
@@ -14,6 +15,12 @@ import '../styles/responsives/large-devices.css'
 /* import JSON */
 import DATA from '../data/DATA.json'
 
+/* Event Handler -> menu toggle nav */ 
+document.querySelector('.menu-toggle').addEventListener('click', function () {
+    document.querySelector('.nav-list').classList.toggle('nav-list-block')
+})
+
+/* Fungsi menampilkan data JSON */ 
 function getData(data) {
     let renderHTML = ''
 

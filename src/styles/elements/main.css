@@ -1,3 +1,9 @@
+main {
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
 /* 
 *   Hero Section
 */
@@ -31,22 +37,6 @@
 .hero-tagline {
     font-size: 18px;
     font-weight: 300;
-}
-
-.btn {
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: var(--secondary-color);
-
-    text-decoration: none;
-    font-size: 18px;
-    color: var(--primary-color);
-    border-radius: 10px;
-}
-
-.btn:hover {
-    text-decoration: underline;
 }
 
 /* 

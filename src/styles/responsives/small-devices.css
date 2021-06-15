@@ -3,7 +3,37 @@
     and (min-device-width: 320px)
     and (max-device-width: 640px) {
 
-        
+        .menu-toggle {
+            display: block;
+            border: 1px solid transparent;
+            text-align: center;
+          }
+
+        .nav-list {
+            display: none;
+        }
+
+        /* New class atribute after click menu-toggle */
+        .nav-list-block {
+            display: flex;
+            flex-wrap: wrap;
+
+            position: absolute;
+            left: 0;
+
+            width: 100%;
+            margin-top: 30px;
+          }
+
+        .nav-item {
+            cursor: pointer;
+
+            width: 100%;
+            padding: 20px 0;
+            background-color: var(--primary-color);
+            text-align: center;
+            border-top: 1px solid;
+        }
 
         .restoran-section {
             grid-template-columns: 1fr;
