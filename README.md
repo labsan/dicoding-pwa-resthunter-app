@@ -6,5 +6,5 @@ RestHunter app merupakan project Frontend Web dengan tema "Katalog Restoran" yan
   - serta menerapkan Aksesibilitas pada Web yang dibangun seperti:
       - menambahkan fungsionalitas web menggunakan keyboard, 
       - menerapkan teknik Skip to Content, 
-      - menambahkan atribut alt pada element <img>, 
+      - menambahkan atribut alt pada element HTML img, 
       - serta menerapkan Element Semantic. 
