@@ -33,11 +33,6 @@ a {
     color: var(--primary-color);
 }
 
-.btn-size {
-    min-width: 44px;
-    min-height: 44px;
-}
-
 header {
     position: fixed;
     top: 0;

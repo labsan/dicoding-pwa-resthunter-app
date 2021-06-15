@@ -1,12 +1,15 @@
 /* for async await transpile */
 import 'regenerator-runtime'
 
-/* import CSS */
+/* import elements CSS */
 import '../styles/root.css'
-import '../styles/header.css'
-import '../styles/main.css'
-import '../styles/footer.css'
-import '../styles/responsive.css'
+import '../styles/elements/header.css'
+import '../styles/elements/main.css'
+
+/* import responsives CSS */ 
+import '../styles/responsives/small-devices.css'
+import '../styles/responsives/medium-devices.css'
+import '../styles/responsives/large-devices.css'
 
 /* import JSON */
 import DATA from '../data/DATA.json'
@@ -17,7 +20,7 @@ function getData(data) {
     data.restaurants.forEach((data, i) => {
         renderHTML += `
             <article tabindex="0" class="card">
-                <img tabindex="0" class="card-image" src="${data.pictureId}" alt="${data.alt}">
+                <img tabindex="0" class="card-image" src="${data.pictureId}" alt="${data.alt}" height="250">
                 <span tabindex="-1" class="card-rating">
                     <i title="icon rating" class="fa fa-star"></i>
                     <span>${data.rating}</span>

@@ -1,0 +1,14 @@
+/* Large class screen sizes & breakpoints Windows apps */
+@media screen 
+    and (min-device-width: 1008px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .restoran-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+}

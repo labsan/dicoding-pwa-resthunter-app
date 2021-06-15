@@ -1,0 +1,84 @@
+/* Small class screen size & breakpoints Windows apps */
+@media screen
+    and (min-device-width: 320px)
+    and (max-device-width: 640px) {
+
+        
+
+        .restoran-section {
+            grid-template-columns: 1fr;
+        }
+
+    @media screen 
+        and (max-device-width: 480px){
+            .hero-section {
+                min-height: 250px;
+            }
+
+            .hero-description {
+                padding: 0 15px;
+            }
+
+            .hero-title {
+                margin-top: 90px;
+                font-size: medium;
+            }
+        
+            .hero-tagline {
+                font-size: x-small;
+            }
+        
+            .btn {
+                margin-top: 5px;
+                padding: 5px 10px;
+                font-size: x-small;
+                border-radius: 5px;
+            }
+
+            .katalog-label {
+                margin: 20px 0;
+                font-size: x-large;
+            }
+
+            .card-description {
+                font-size: 12px;
+            }
+
+            footer p {
+                font-size: smaller;
+            }
+    }
+
+    @media screen 
+        and (min-device-width: 481px) {
+            .hero-section {
+                min-height: 300px;
+            }
+
+
+            .hero-description {
+                padding: 0 15px;
+            }
+        
+            .hero-title {
+                margin-top: 80px;
+                font-size: x-large;
+            }
+        
+            .hero-tagline {
+                font-size: medium;
+            }
+
+            .btn {
+                margin-top: 5px;
+                padding: 5px 10px;
+                font-size: small;
+                border-radius: 5px;
+            }
+
+            .card-image {
+                height: 300px;
+            }
+    }
+}
+
