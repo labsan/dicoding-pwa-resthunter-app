@@ -1,0 +1,124 @@
+{
+  "restaurants": [
+    {
+      "id": "6c7bqjgi84kcowlqdz",
+      "name": "209 Dining",
+      "description": "Restoran yang nyaman ini dirancang untuk menawarkan pengalaman bersantap yang santai namun modern. Mulailah hari Anda dengan hidangan buffet yang lezat dan nikmati beragam sajian untuk jamuan makan siang dan makan malam.",
+      "pictureId": "/images/restaurants/209-dining.jpg",
+      "alt": "Gambar suasana ruang dari restoran 209 dining",
+      "city": "Kota Surabaya",
+      "rating": 5,
+      "website": "https://www.vasahotelsurabaya.com/id/penyajian/209-dining"
+    },
+    {
+      "id": "ljx8i0qu2uckcowlqdz",
+      "name": "Arumanis Restaurant",
+      "description": "Arumanis Restaurant carries a Javanese nuance with authentic Indonesian flavors at Warung Mbak Pur section that is located on the left side of the main entrance. Western and Oriental menu choices served with buffet style on the opposite side of the main entrance.",
+      "pictureId": "/images/restaurants/arumanis-restaurant.jpg",
+      "alt": "Gambar suasana ruang dari restoran arumanis",
+      "city": "Kota Surabaya",
+      "rating": 4.5,
+      "website": "http://bumisurabaya.com/dining/arumanis-restaurant/"
+    },
+    {
+      "id": "fe8bbxoazddkcowlqdz",
+      "name": "Chamas Restaurant",
+      "description": "We proudly introduce the first Brazilian Churrascaria Restaurant in Surabaya where the new dining concept of the Brazilian Steak house with unlimited high-quality meat; 17 varieties of beef, lamb, and chicken as well as excellent beverage selections are served. ",
+      "pictureId": "/images/restaurants/chamas-restaurant.jpg",
+      "alt": "Gambar suasana ruang dari restoran chamas",
+      "city": "Kota Surabaya",
+      "rating": 5,
+      "website": "https://www.vasahotelsurabaya.com/dining/chamas-churrascaria"
+    },
+    {
+      "id": "ik1zljmlf68kcowlqdz",
+      "name": "Hill House",
+      "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+      "pictureId": "/images/restaurants/hill-house.jpg",
+      "alt":"Gambar suasana ruang dari restoran hill house",
+      "city": "Kota Batu",
+      "rating": 5,
+      "website": "https://hillhousebatu.com/"
+    },
+    {
+      "id": "9jpuzkm6n6jkcowlqdz",
+      "name": "Kafe Bromo",
+      "description": "Get ready for a busy day in Surabaya with a delicious breakfast at our Indonesian restaurant. Meet with colleagues over lunch or dinner in our terrace-like setting with picturesque pool and garden views through a wall of floor-to-ceiling windows.",
+      "pictureId": "/images/restaurants/kafe-bromo.jpg",
+      "alt":"Gambar suasana ruang dari restoran kafe bromo",
+      "city": "Kota Surabaya",
+      "rating": 4.5,
+      "website": "https://www.tripadvisor.co.id/Restaurant_Review-g297715-d7063382-Reviews-Kafe_Bromo-Surabaya_East_Java_Java.html"
+    },
+    {
+      "id": "cpl5jpsnuqkkcowlqdz",
+      "name": "La Regina",
+      "description": "Established in Malang in 2019, La Regina, or “The Queen”, is the perfect place for you and your family and friends to gather where we bring the perfect combination of cozy ambience and good food to satisfy your palates and mood.",
+      "pictureId": "/images/restaurants/la-regina.jpg",
+      "alt":"Gambar suasana ruang dari restoran la regina",
+      "city": "Kota Malang",
+      "rating": 5,
+      "website": "https://laregina.id/"
+    },
+    {
+      "id": "iqtf9hmdzvbkcowlqdz",
+      "name": "Layar Seafood",
+      "description": "Berasal dari tangkapan hasil laut terbaik, sajian kami hidangkan dengan kombinasi berbagai macam pilihan racikan bumbu chef kami yang mernghasilkan rasa OTENTIK INDONESIA dengan menggunakan bahan-bahan alami.",
+      "pictureId": "/images/restaurants/layar-seafood.jpg",
+      "alt": "Gambar suasana ruang dari restoran layar seafood",
+      "city": "Kota Surabaya",
+      "rating": 4.5,
+      "website": "http://layarseafood.com/home"
+    },
+    {
+      "id": "8i06gqcc2dpkcowlqdz",
+      "name": "Melati Restaurant",
+      "description": "Melati Restaurant is famous for its original Indonesian homecooking old recipes, its Chinese Peranakan menu, as well as a vast menu of tender, juicy steaks, ranging from old Dutch Colonial recipes of batter-fried steaks to gourmet French-style grilled steaks.",
+      "pictureId": "/images/restaurants/melati-restaurant.jpg",
+      "alt": "Gambar suasana ruang dari restoran melati",
+      "city": "Kota Malang",
+      "rating": 4.5,
+      "website": "https://tuguhotels.com/hotels/malang/dining/"
+    },
+    {
+      "id": "wf5o19xhxxkcowlqdz",
+      "name": "SaigonSan Restaurant",
+      "description": "Take a step back through time and dine in at the majestic Royal Angkor and SaigonSan to enjoy a night inspired by a forgotten love legend of Indochina.",
+      "pictureId": "/images/restaurants/saigonsan-restaurant.jpg",
+      "alt":"Gambar suasana ruang dari restoran saigonsan",
+      "city": "Kota Malang",
+      "rating": 5,
+      "website": "https://www.tripadvisor.co.id/Restaurant_Review-g297710-d14917627-Reviews-SaigonSan_Restaurant_Rooftop_Terrace-Malang_East_Java_Java.html"
+    },
+    {
+      "id": "vate1obc37p4cvhxkb",
+      "name": "Seventeen Skyview",
+      "description": "Seventeen Skyview is located in the heart of Surabaya, right on top of Harris Hotel jl. Bangka Surabaya. The location itself is the ideal position for those who want to make the most of the city. Be part of something new, classy and different.",
+      "pictureId": "/images/restaurants/seventeen-skyview.jpg",
+      "alt": "Gambar suasana ruang dari restoran seventeen skyview",
+      "city": "Kota Surabaya",
+      "rating": 4.5,
+      "website": "https://www.seventeenlounge.com/"
+    },
+    {
+      "id": "zm1zkc20nor0wcryxx",
+      "name": "The Arbanat",
+      "description": "ARBANAT Kitchen.Cafe.Lounge, diambil dari kata “arbanat”, yang diketahui sebagai jajanan tempo doeloe khas dari Malang.",
+      "pictureId": "/images/restaurants/the-arbanat.jpg",
+      "alt": "Gambar suasana ruang dari restoran the arbanat",
+      "city": "Kota Malang",
+      "rating": 4.5,
+      "website": "https://thearbanat.com/"
+    },
+    {
+      "id": "stdy9mu8ecppzjxezl",
+      "name": "Xiang Fu Hai",
+      "description": "At Xiang Fu Hai, our culinary team strives to bring you the healthiest, freshest, and most authentic Chinese and Cantonese cuisine.",
+      "pictureId": "/images/restaurants/xiang-fu-hai.jpg",
+      "alt": "Gambar suasana ruang dari restoran xiang fu hai",
+      "city": "Kota Surabaya",
+      "rating": 5,
+      "website": "https://www.vasahotelsurabaya.com/dining/xiang-fu-hai"
+    }
+  ]
+}

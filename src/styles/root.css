@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+:root {
+    --primary-color: #F8EDE3;
+    --secondary-color: #5D5E55;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.btn-size {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 30px;
+}
+
+main {
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px 0 30px 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}

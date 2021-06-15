@@ -1,0 +1,141 @@
+/* 
+*   Hero Section
+*/
+
+.hero-section {
+    min-height: 500px;
+    background-image: url("/images/heros/hero1.jpg");
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero-title {
+    margin-top: 200px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.hero-tagline {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+/* 
+*   Katalog Section
+*/
+
+.katalog-label {
+    margin: 30px 0 50px 0;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.restoran-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(121, 135, 119, 0.5);
+}
+
+.card:hover {
+    transform: translate3D(0, -5px, 0);
+    transition: all 1s;
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+       
+    padding: 0.4em 1.3em;
+    background-color: var(--secondary-color);
+    font-size: large;
+    color: var(--primary-color);
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-text-section {
+    padding: 10px 20px 20px 20px;
+}
+
+.card-city, .card-title {
+    text-align: center;
+}
+
+.card-city {
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.card-title:hover {
+    cursor: pointer;
+    text-decoration: wavy underline;
+
+}
+
+.card-description {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card-description:hover {
+    text-decoration: wavy underline var(--secondary-color);
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+
+
