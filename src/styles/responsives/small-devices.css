@@ -3,6 +3,7 @@
     and (min-device-width: 320px)
     and (max-device-width: 640px) {
 
+        /* Style header > nav */
         .menu-toggle {
             display: block;
             border: 1px solid transparent;
@@ -35,6 +36,7 @@
             border-top: 1px solid;
         }
 
+        /* Style Grid katalog restoran */
         .restoran-section {
             grid-template-columns: 1fr;
         }
@@ -42,27 +44,30 @@
     @media screen 
         and (max-device-width: 480px){
             .hero-section {
-                min-height: 250px;
+                min-height: 350px;
             }
-
+    
             .hero-description {
                 padding: 0 15px;
+                margin-top: 180px;
+                text-align: center;
             }
 
             .hero-title {
-                margin-top: 90px;
                 font-size: medium;
             }
         
             .hero-tagline {
                 font-size: x-small;
             }
-        
-            .btn {
-                margin-top: 5px;
+            
+            .btn-hero-section {
+                margin-top: 10px;
+            }
+
+            .btn-hero {
                 padding: 5px 10px;
                 font-size: x-small;
-                border-radius: 5px;
             }
 
             .katalog-label {
@@ -75,40 +80,88 @@
             }
 
             footer p {
-                font-size: smaller;
+                font-size: small;
             }
     }
 
     @media screen 
         and (min-device-width: 481px) {
             .hero-section {
-                min-height: 300px;
+                min-height: 400px;
             }
-
-
+    
             .hero-description {
                 padding: 0 15px;
+                margin-top: 80px;
+                text-align: center;
             }
         
             .hero-title {
-                margin-top: 80px;
-                font-size: x-large;
+                margin-top: 120px;
+                font-size: large;
             }
         
             .hero-tagline {
-                font-size: medium;
+                font-size: small;
             }
 
-            .btn {
-                margin-top: 5px;
+            .btn-hero-section {
+                margin-top: 10px;
+            }
+    
+            .btn-hero {
                 padding: 5px 10px;
-                font-size: small;
-                border-radius: 5px;
+                font-size: x-small;
+            }
+    
+            .katalog-label {
+                margin: 10px 0;
+                font-size: 1.8em;
             }
 
             .card-image {
                 height: 300px;
             }
+    }
+
+    @media screen 
+    and (min-device-width: 530px) {
+        .hero-section {
+            min-height: 400px;
+        }
+
+        .hero-description {
+            padding: 0 15px;
+            margin-top: 110px;
+            text-align: center;
+        }
+    
+        .hero-title {
+            margin-top: 80px;
+            font-size: x-large;
+        }
+    
+        .hero-tagline {
+            font-size: medium;
+        }
+
+        .btn-hero-section {
+            margin-top: 15px;
+        }
+
+        .btn-hero {
+            padding: 5px 10px;
+            font-size: small;
+        }
+
+        .katalog-label {
+            margin: 10px 0;
+            font-size: 2em;
+        }
+
+        .card-image {
+            height: 300px;
+        }
     }
 }
 

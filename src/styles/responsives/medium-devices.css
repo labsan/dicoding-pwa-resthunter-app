@@ -3,6 +3,12 @@
     and (min-device-width: 641px)
     and (max-device-width: 1007px) {
      
+        .hero-description {
+            padding: 0 15px;
+            text-align: center;
+        }
+
+
         .restoran-section {
             grid-template-columns: repeat(2, 1fr);
         }
