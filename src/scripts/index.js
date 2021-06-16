@@ -33,9 +33,9 @@ function getData(data) {
                     <span>${data.rating}</span>
                 </span>
                 <div class="card-text-section">
-                    <h2 tabindex="0" class="card-title">
-                        <a href="${data.website}">${data.name}</a>
-                    </h2>
+                    <a href="${data.website}">
+                        <h2 tabindex="0" class="card-title">${data.name}</h2>
+                    </a>
                     <p tabindex="0" class="card-city">${data.city}</p>
                     <p tabindex="0" class="card-description truncate">${data.description}</p>
                 </div>

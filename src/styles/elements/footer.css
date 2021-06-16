@@ -1,6 +1,7 @@
 footer {
     margin-top: 20px;
-    padding: 20px 0 30px 0;
-    background-color: var(--primary-color);
+    padding: 30px 0;
+    background-color: transparent;
+    font-size: medium;
     text-align: center;
 }

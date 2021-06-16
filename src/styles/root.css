@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 :root {
-    --primary-color: #F8EDE3;
-    --secondary-color: #5D5E55;
+    --quarter-spanish-white-color: #F8EDE3;
+    --chicago-color: #5D5E55;
 }
 
 * {
@@ -22,34 +22,69 @@ body, html {
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--quarter-spanish-white-color);
     font-family: 'Alata', sans-serif;
     font-size: 14px;
-    color: var(--secondary-color);
+    color: var(--chicago-color);
 }
 
 /* Anchor */
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--quarter-spanish-white-color);
 }
 
 /* Button */
 
-.btn {
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: var(--secondary-color);
+.btn-skip {
+    position: absolute;
+    top: -140px;
+    left: 0;
+    background-color: var(--chicago-color);
+    color: var(--quarter-spanish-white-color);
+    padding: 8px;
+    z-index: 100;
+ }
 
+ .btn-skip:focus {
+    top: 100px;
+ }
+
+.btn-nav {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: var(--chicago-color);
+
+    border: 3px solid var(--chicago-color);
+    border-radius: 30px;
+}
+
+.btn-nav:hover {
+    cursor: pointer;
+    background-color: var(--quarter-spanish-white-color);
+    color: var(--chicago-color);
+    transition: ease 1s;
+}
+
+.btn-hero-section {
+    margin-top: 25px;
+}
+
+.btn-hero {
+    padding: 10px 20px;
+    background-color: transparent;
     text-decoration: none;
     font-size: 18px;
-    color: var(--primary-color);
-    border-radius: 10px;
+    border: 3px solid var(--quarter-spanish-white-color);
+    border-radius: 30px;
 }
 
-.btn:hover {
-    text-decoration: underline;
+.btn-hero:hover {
+    cursor: pointer;
+    background-color: var(--quarter-spanish-white-color);
+    color: var(--chicago-color);
+    transition: ease 1s;
 }
+
 

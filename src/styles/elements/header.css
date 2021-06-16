@@ -5,7 +5,8 @@ header {
 
     width: 100%;
     height: 100px;
-    background-color: var(--primary-color);
+    background-color: var(--quarter-spanish-white-color);
+    box-shadow: 0 10px 20px 0 rgba(121, 135, 119, 0.5);
 }
 
 .header-section {
@@ -35,9 +36,10 @@ header {
 
 .menu-toggle {
     display: none;
-    width: 30px;
+    min-width: 44px;
+    min-height: 44px;
     font-size: 25px;
-    color: var(--secondary-color);
+    color: var(--chicago-color);
   }
 
 ul li {
@@ -46,24 +48,16 @@ ul li {
 }
 
 li .menu {
-    padding: 10px;
-    margin-left: 10px;
+    padding: 25px 10px;
 
     text-decoration: none;
     font-size: 16px;
-    color: var(--secondary-color);
-
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    color: var(--chicago-color);
 }
 
-.menu:hover {
+li .menu:hover {
     cursor: pointer;
-
-    padding: 10px;
-    background-color: var(--secondary-color);
-
-    transition: all 1s;
-    color: var(--primary-color);
+    text-decoration: wavy underline;
 }
+
 

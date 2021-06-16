@@ -22,6 +22,9 @@
 </head>
 
 <body>
+    <!-- Button skip -->
+    <a href="#katalog-restoran" class="btn-skip">Menuju ke konten</a>
+
     <!-- Header Section -->
     <header>
         <div class="container">
@@ -45,7 +48,7 @@
                         <ul class="nav-list">
                             <li tabindex="0" class="nav-item"><a class="menu" href="/">Beranda</a></li>
                             <li tabindex="0" class="nav-item"><a class="menu" href="#">Favorit</a></li>
-                            <li tabindex="0" class="nav-item"><a class="menu" href="https://github.com/labsan/">Kontak</a></li>
+                            <li tabindex="0" class="nav-item"><a class="btn-nav" href="https://www.tripadvisor.co.id/Restaurants-g2301797-East_Java_Java.html">Pesan Online</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -53,35 +56,36 @@
         </div>
     </header>
 
-    <div class="container">
-        <!-- Content Section -->
-        <main>
-            <!-- Hero Section -->
-            <section class="hero-section">
-                <div class="hero-description">
-                    <h1 tabindex="0" class="hero-title">Ayo kunjungi restoran terkenal di Indonesia</h1>
-                    <p tabindex="0" class="hero-tagline">Menyajikan informasi lokasi restoran terbaik di Indonesia</p>
-                    <a tabindex="0" class="btn btn-size" href="#katalog-restoran">Temukan disini</a>
-                </div>
-            </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-description">
+                <h1 tabindex="0" class="hero-title">Ayo kunjungi restoran terkenal di Jawa Timur</h1>
+                <p tabindex="0" class="hero-tagline">Menyajikan informasi lokasi restoran terbaik di Jawa Timur</p>
+                <span class="btn-hero-section">
+                    <a tabindex="0" class="btn-hero" href="#katalog-restoran">Temukan disini</a>
+                </span>
+            </div>
+        </section>
 
+        <div class="container">
             <!-- Katalog Section -->
-            <section id="katalog-restoran" class="katalog-section">
-
+            <section class="katalog-section" id="katalog-restoran">
+    
                 <!-- Label -->
-                <h1 tabindex="0" class="katalog-label">Restoran Terpopuler di Indonesia</h1>
-
+                <h1 tabindex="0" class="katalog-label">Restoran Terpopuler di Jawa Timur</h1>
+    
                 <!-- Daftar Restoran Section -->
                 <div class="restoran-section" id="restaurant-list"></div>
             </section>
-        </main>
+        </div>
+    </main>
 
-        <!-- Footer Section -->
-        <footer tabindex="0">
-            <p tabindex="0">
-                Copyright © 2021 All Rights Reserved | <i>RestHunter</i>
-            </p>
-        </footer>
-    </div>
+    <!-- Footer Section -->
+    <footer tabindex="0">
+        <p tabindex="0">
+            Copyright © 2021 All Rights Reserved | <i>RestHunter</i>
+        </p>
+    </footer>
 </body>
 </html>
