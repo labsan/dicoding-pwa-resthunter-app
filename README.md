@@ -1,4 +1,4 @@
-# resthunter-app
+# pwa-resthunter-app
 RestHunter app merupakan project Frontend Web dengan tema "Katalog Restoran" yang dibangun dengan beberapa kriteria seperti: 
   - dibangun tanpa menggunakan framework CSS, 
   - menerapkan vanili JS hanya digunakan untuk menampilkan data dari file JSON, 
