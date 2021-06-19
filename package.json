@@ -1,7 +1,7 @@
 {
-  "name": "restaurant-apps",
+  "name": "pwa-resthunter-app",
   "version": "1.0.0",
-  "description": "New Develop by Santiyon",
+  "description": "Project katalog restoran berbasis PWA",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
@@ -9,7 +9,7 @@
     "test": "karma start"
   },
   "keywords": [],
-  "author": "your_name <your.email@domain.com>",
+  "author": "labsan <yondeveloper@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.5",
