@@ -1,5 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
 const path = require('path');
 
 module.exports = {
@@ -21,6 +23,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|svg|jpe?g|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader',
+        ],
+      },
     ],
   },
   plugins: [
@@ -35,6 +49,17 @@ module.exports = {
           to: path.resolve(__dirname, 'dist/'),
         },
       ],
+    }),
+    new FaviconsWebpackPlugin({
+      logo: 'src/public/images/logos/favicon.ico',
+      favicons: {
+        appName: 'resthunter-app',
+        appDescription: 'Web aplikasi katalog restoran terpopuler di Jawa Timur',
+        developerName: 'labsan',
+        developerURL: '',
+        background: '',
+        theme_color: '',
+      },
     }),
   ],
 };
