@@ -8,7 +8,7 @@ main {
 
 .hero-section {
     min-height: 700px;
-    background-image: url("/images/heros/hero1.jpg");
+    background-image: url("../../public/images/heros/hero1.jpg");
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
