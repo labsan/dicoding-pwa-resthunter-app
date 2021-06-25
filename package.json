@@ -41,6 +41,14 @@
     "whatwg-fetch": "^3.6.2"
   },
   "dependencies": {
-    "regenerator-runtime": "^0.13.7"
+    "idb": "^6.1.2",
+    "regenerator-runtime": "^0.13.7",
+    "sweetalert2": "^11.0.18",
+    "workbox-core": "^6.1.5",
+    "workbox-expiration": "^6.1.5",
+    "workbox-precaching": "^6.1.5",
+    "workbox-routing": "^6.1.5",
+    "workbox-strategies": "^6.1.5",
+    "workbox-window": "^6.1.5"
   }
 }
