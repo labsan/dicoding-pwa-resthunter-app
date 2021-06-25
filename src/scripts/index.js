@@ -13,12 +13,21 @@ import '../styles/responsives/medium-devices.css';
 import '../styles/responsives/large-devices.css';
 
 /* import JSON */
-import DATA from '../data/DATA.json';
+import DATA from '../scripts/data/DATA.json';
+
+/* import App */
+import App from './views/app'; 
+
+const app = new App({
+    button: document.querySelector('#hamburgerButton'),
+    drawer: document.querySelector('#navigationDrawer'),
+    content: document.querySelector('#restaurant-list'),
+});
 
 /* Event Handler -> menu toggle nav */
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.nav-list').classList.toggle('nav-list-block');
-});
+// document.querySelector('.menu-toggle').addEventListener('click', function() {
+//   document.querySelector('.nav-list').classList.toggle('nav-list-block');
+// });
 
 /* Fungsi menampilkan data JSON */
 // eslint-disable-next-line require-jsdoc

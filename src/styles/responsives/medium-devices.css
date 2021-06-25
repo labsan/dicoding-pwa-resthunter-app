@@ -2,13 +2,42 @@
 @media screen 
     and (min-device-width: 641px)
     and (max-device-width: 1007px) {
-     
+
+        /* AppBar */
+        .app-bar {
+            grid-template-columns: 1fr auto;
+        }
+       
+        .app-bar .app-bar__brand h1 {
+            font-size: 2em;
+        }
+       
+        .app-bar .app-bar__menu {
+            display: none;
+        }
+       
+        .app-bar .app-bar__navigation {
+            position: static;
+            width: 100%;
+        }
+       
+        .app-bar .app-bar__navigation ul li {
+            display: inline-block;
+        }
+       
+        .app-bar .app-bar__navigation ul li a {
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Hero Section */
         .hero-description {
             padding: 0 15px;
             text-align: center;
         }
 
-
+        /* Katalog Section */
         .restoran-section {
             grid-template-columns: repeat(2, 1fr);
         }

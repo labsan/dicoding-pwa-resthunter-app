@@ -48,22 +48,15 @@ a {
  }
 
  .btn-skip:focus {
-    top: 100px;
+    top: 80px;
  }
 
 .btn-nav {
-    padding: 10px 20px;
-    margin-left: 10px;
-    background-color: var(--chicago-color);
-
-    border: 3px solid var(--chicago-color);
-    border-radius: 30px;
+    color: var(--chicago-color);
 }
 
 .btn-nav:hover {
-    cursor: pointer;
-    background-color: var(--quarter-spanish-white-color);
-    color: var(--chicago-color);
+    text-decoration: wavy underline !important;
     transition: ease 1s;
 }
 

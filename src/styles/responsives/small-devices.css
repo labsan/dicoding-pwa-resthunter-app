@@ -3,37 +3,17 @@
     and (min-device-width: 320px)
     and (max-device-width: 640px) {
 
-        /* Style header > nav */
-        .menu-toggle {
-            display: block;
-            border: 1px solid transparent;
-            text-align: center;
-          }
-
-        .nav-list {
-            display: none;
+        .app-bar .app-bar__brand h1 {
+            font-size: 1.7em;
         }
-
-        /* New class atribute after click menu-toggle */
-        .nav-list-block {
-            display: flex;
-            flex-wrap: wrap;
-
-            position: absolute;
-            left: 0;
-
-            width: 100%;
-            margin-top: 20px;
-          }
 
         .nav-item {
             cursor: pointer;
 
-            width: 100%;
-            padding: 20px 0;
+            padding: 5px 20px;
             background-color: var(--quarter-spanish-white-color);
             text-align: center;
-            border-top: 1px solid;
+            border-bottom: 1px solid;
         }
 
         /* Style Grid katalog restoran */
@@ -49,7 +29,7 @@
     
             .hero-description {
                 padding: 0 15px;
-                margin-top: 180px;
+                margin-top: 150px;
                 text-align: center;
             }
 
@@ -92,7 +72,7 @@
     
             .hero-description {
                 padding: 0 15px;
-                margin-top: 80px;
+                margin-top: 60px;
                 text-align: center;
             }
         
@@ -132,7 +112,7 @@
 
         .hero-description {
             padding: 0 15px;
-            margin-top: 110px;
+            margin-top: 90px;
             text-align: center;
         }
     
