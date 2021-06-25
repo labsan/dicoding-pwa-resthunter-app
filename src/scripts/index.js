@@ -18,16 +18,22 @@ import DATA from '../scripts/data/DATA.json';
 /* import App */
 import App from './views/app'; 
 
+/* Konfigurasi Drawer */ 
 const app = new App({
     button: document.querySelector('#hamburgerButton'),
     drawer: document.querySelector('#navigationDrawer'),
     content: document.querySelector('#restaurant-list'),
 });
 
-/* Event Handler -> menu toggle nav */
-// document.querySelector('.menu-toggle').addEventListener('click', function() {
-//   document.querySelector('.nav-list').classList.toggle('nav-list-block');
-// });
+/* URL Router */ 
+window.addEventListener('hashchange', () => {
+    app.renderPage();
+});
+
+/* URL Router */
+window.addEventListener('load', () => {
+    app.renderPage();
+});
 
 /* Fungsi menampilkan data JSON */
 // eslint-disable-next-line require-jsdoc
