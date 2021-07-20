@@ -1,88 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Resthunter">
-    <meta 
-        name="description" 
-        content="Web aplikasi tentang informasi restoran terpopuler yang ada di Jawa Timur">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gratis informasi tentang restoran terbaik di Indoensia untukmu">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/logos/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/logos/favicon-16x16.png">
-    <link rel="mask-icon" href="/images/logos/safari-pinned-tab.svg" color="#5d5e55">
+        <!-- Icon for Microsoft -->
+        <meta name="msapplication-TileColor" content="#f8ede3">
+        <meta name="msapplication-TileImage" content="icons/mstile-144x144.png">
 
-    <meta name="msapplication-TileColor" content="#f8ede3">
-    <meta name="theme-color" content="#f8ede3">
-    
-    <title>RestHunter | Berburu restoran terbaik di Indonesia</title>
-    
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css"
-    />
-</head>
+        <!-- Icon for Safari Browser -->
+        <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#f8ede3">
 
-<body>
-    <!-- Button skip -->
-    <a href="#katalog-restoran" class="btn-skip">Menuju ke konten</a>
+        <!-- Import FontAwesome Icon -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+        crossorigin="anonymous"
+        />
 
-    <!-- Header Section -->
-    <header class="app-bar">
-        <!-- Menu Section -->
-        <div tabindex="0" class="app-bar__menu">
-            <button id="hamburgerButton" aria-label="button menu dropdown on mobile">
-                <span class="fa fa-bars"></span>
-            </button>
-        </div>
+        <!-- Import CDN Favorite Icon -->
+        <script
+        src="https://use.fontawesome.com/b070c8f1df.js"
+        crossorigin="anonymous">
+        </script>
 
-        <!-- Brand Section -->
-        <div tabindex="0" class="app-bar__brand">
-            <h1><i>RestHunter</i></h1>
-        </div>
-    
-        <!-- Navigation Section -->
-        <nav id="navigationDrawer" class="app-bar__navigation">
-            <ul>
-                <li class="nav-item"><a class="btn-nav" href="#beranda">Beranda</a></li>
-                <li class="nav-item"><a class="btn-nav" href="#favorit">Favorit</a></li>
-                <li class="nav-item"><a class="btn-nav" href="https://github.com/labsan">Tentang Kami</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Web Title -->
+        <title>RestHunter | Berburu informasi restoran terbaik di Indonesia</title>
+    </head>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="hero-description">
-                <h1 tabindex="0" class="hero-title">Ayo kunjungi restoran terkenal di Jawa Timur</h1>
-                <p tabindex="0" class="hero-tagline">Menyajikan informasi lokasi restoran terbaik di Jawa Timur</p>
-                <span class="btn-hero-section">
-                    <a tabindex="0" class="btn-hero" href="#katalog-restoran">Temukan disini</a>
-                </span>
-            </div>
-        </section>
+    <body>
+        <!-- Skip Link -->
+        <a href="#main-content" class="skip-link">Menuju Konten</a>
 
-        <div class="container">
-            <!-- Katalog Section -->
-            <section class="katalog-section" id="katalog-restoran">
-    
-                <!-- Label -->
-                <h1 tabindex="0" class="katalog-label">Restoran Terpopuler di Jawa Timur</h1>
-    
-                <!-- Daftar Restoran Section -->
-                <div class="restoran-section" id="restaurant-list"></div>
-            </section>
-        </div>
-    </main>
+        <!-- Header Section -->
+        <header class="hero">
+            <nav-bar></nav-bar>
+            <hero-content class="hero__text"></hero-content>
+        </header>
 
-    <!-- Footer Section -->
-    <footer tabindex="0">
-        <p tabindex="0">
-            Copyright © 2021 All Rights Reserved | <i>RestHunter</i>
-        </p>
-    </footer>
-</body>
+        <!-- Content Section -->
+        <main id="main-content"></main>
+
+        <!-- Footer Section -->
+        <custom-footer></custom-footer>
+    </body>
 </html>
