@@ -1,73 +1,40 @@
-/* 
-*   AppBar
-*/
+/*
+ * header
+ */
 
-.app-bar {
-    padding: 8px 16px;
-
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 10px;
-
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-
-    background-color: var(--quarter-spanish-white-color);
-    box-shadow: 0 10px 20px 0 rgba(121, 135, 119, 0.5);
-}
-
-/* 
-*   AppBar > Menu
-*/
-
-.app-bar .app-bar__menu {
+ .hero {
     display: flex;
-    align-items: center;
-}
-
-.app-bar .app-bar__menu button {
-    min-width: 44px;
-    min-height: 44px;
-    background-color: transparent;
-
-    font-size: 25px;
-    color: var(--chicago-color);
-    cursor: pointer;
-    border: 0;
-}
-
-/* 
-* AppBar > Brand / logo
-*/
-
-.app-bar .app-bar__brand {
-    display: flex;
-    align-items: center;
-}
-
-/* 
-*   AppBar > Navigation
-*/
-
-.app-bar .app-bar__navigation {
-    position: absolute;
-    top: 50px;
-    left: -180px;
-    transition: all 0.3s;
-    overflow: hidden;
-}
-
-.app-bar .app-bar__navigation.open {
-    left: 0;
-}
-
-.app-bar .app-bar__navigation ul li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px 10px;
+    flex-direction: column;
+    min-height: 600px;
     width: 100%;
-}
-
-
+    text-align: center;
+    background-color: var(--primary-color);
+    background: var(--image-color), url('/images/hero.jpg'); 
+    background-position: center;
+    object-fit: cover;
+    padding: 0 10%;
+  }
+  
+  .hero__text {
+    align-self: center;
+    max-width: 650px;
+    margin: auto 0;
+    padding-bottom: 3em;
+  }
+  
+  .hero__title {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: xx-large;
+  }
+  
+  .hero__subtitle {
+    color: var(--primary-color);
+    margin: 16px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 1.36em;
+  }
+  

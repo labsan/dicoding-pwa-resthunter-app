@@ -1,7 +1,21 @@
+/*
+ * footer Section
+ */
+
 footer {
-    margin-top: 20px;
-    padding: 30px 0;
-    background-color: transparent;
-    font-size: medium;
+    padding: 1em 0 2em 0;
+    width: 100%;
     text-align: center;
+    color: var(--secondary-color);
+}
+
+footer ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+footer li {
+    font-size: 16px;
 }
