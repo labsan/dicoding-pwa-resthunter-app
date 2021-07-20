@@ -38,17 +38,13 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.0.9",
+    "webpack-pwa-manifest": "^4.3.0",
     "whatwg-fetch": "^3.6.2"
   },
   "dependencies": {
     "idb": "^6.1.2",
     "regenerator-runtime": "^0.13.7",
-    "sweetalert2": "^11.0.18",
-    "workbox-core": "^6.1.5",
-    "workbox-expiration": "^6.1.5",
-    "workbox-precaching": "^6.1.5",
-    "workbox-routing": "^6.1.5",
-    "workbox-strategies": "^6.1.5",
-    "workbox-window": "^6.1.5"
+    "serviceworker-webpack-plugin": "^1.0.1",
+    "sweetalert2": "^11.0.18"
   }
 }
