@@ -1,12 +1,11 @@
-import Beranda from '../views/pages/beranda';
-import Favorit from '../views/pages/favorit';
-import Detail from '../views/pages/detail';
- 
-const routes = {
-  '/': Beranda, // default page
-  '/now-playing': Beranda,
-  '/upcoming': Favorit,
-  '/detail/:id': Detail,
+import GALLERY from '../views/pages/gallery';
+import FAVORITE from '../views/pages/favorite';
+import DETAIL from '../views/pages/detail';
+
+const ROUTES = {
+  '/': GALLERY, // default page
+  '/detail/:id': DETAIL,
+  '/favorite': FAVORITE,
 };
- 
-export default routes;
+
+export default ROUTES;
