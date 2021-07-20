@@ -1,10 +1,10 @@
 class Navbar extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
           <nav>
             <div class="menu-hp">
               <div>
@@ -34,8 +34,7 @@ class Navbar extends HTMLElement {
             </ul>
           </nav>
         `;
-    }
   }
-  
-  customElements.define('nav-bar', Navbar);
-  
+}
+
+customElements.define('nav-bar', Navbar);

@@ -1,10 +1,10 @@
 class CustomFooter extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
           <footer tabindex="0">
             <ul>
               <li tabindex="0">Copyright © 2021 All data obtained from 
@@ -17,8 +17,7 @@ class CustomFooter extends HTMLElement {
             </ul>
           </footer>
         `;
-    }
   }
-  
-  customElements.define('custom-footer', CustomFooter);
-  
+}
+
+customElements.define('custom-footer', CustomFooter);
