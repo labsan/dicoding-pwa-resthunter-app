@@ -1,10 +1,10 @@
 {
   "name": "pwa-resthunter-app",
   "version": "1.0.0",
-  "description": "Project katalog restoran berbasis PWA",
+  "description": "Web aplikasi tentang informasi restoran",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-cli serve --config webpack.dev.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src/scripts",
     "test": "karma start"
