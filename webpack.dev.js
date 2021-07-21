@@ -1,4 +1,4 @@
-const { merge } = require('webpack-merge');
+const {merge} = require('webpack-merge');
 const path = require('path');
 const common = require('./webpack.common');
 
@@ -7,6 +7,6 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     compress: true,
-    port: 5000,
+    port: 8900,
   },
 });
