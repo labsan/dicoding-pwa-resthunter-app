@@ -75,14 +75,14 @@ module.exports = {
       crossorigin: 'use-credentials',
       icons: [
         {
-          src: path.resolve('src/public/icons/android-chrome-384x384.png'),
-          sizes: [36, 48, 72, 96, 144, 192, 384],
+          src: path.resolve('src/public/icons/icon-512x512.png'),
+          sizes: [36, 48, 72, 96, 144, 192, 384, 512],
           destination: path.join('icons', 'android'),
           purpose: 'any maskable',
         },
         {
-          src: path.resolve('src/public/icons/apple-touch-icon-180x180.png'),
-          sizes: [57, 60, 72, 76, 114, 152, 180],
+          src: path.resolve('src/public/icons/icon-512x512.png'),
+          sizes: [57, 60, 72, 76, 114, 120, 152, 167, 180, 192, 512],
           destination: path.join('icons', 'apple'),
           ios: true, // make eligible to the app-touch-icon meta tag
           purpose: 'any maskable',
