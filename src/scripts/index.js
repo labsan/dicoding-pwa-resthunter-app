@@ -40,7 +40,6 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   APP.renderPage();
-  // eslint-disable-next-line new-cap
   SW_REGISTER();
   WEBSOCKET_INITIATOR.init(CONFIG.WEBSOCKET_SERVER);
 });
